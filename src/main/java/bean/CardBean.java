@@ -1,14 +1,21 @@
 package bean;
 
+import com.google.gson.annotations.SerializedName;
 import org.opencv.core.Point;
 
 public class CardBean {
+    @SerializedName("card_no")
     String cardNo;
+    @SerializedName("level_name")
     String level;
+    @SerializedName("name")
     String name;
+    @SerializedName("type_no")
     String type;
+    @SerializedName("type_name")
     String typeName;
     Point centerPoint;
+    @SerializedName("img_name")
     String imageName;
 
     @Override

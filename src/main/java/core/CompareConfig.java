@@ -2,6 +2,8 @@ package core;
 
 import bean.*;
 import com.google.gson.Gson;
+import com.google.gson.reflect.TypeToken;
+import jdk.nashorn.internal.parser.TokenType;
 import org.opencv.core.Core;
 import org.opencv.core.Point;
 import org.opencv.imgcodecs.Imgcodecs;
@@ -95,7 +97,10 @@ public class CompareConfig {
                     throwables.printStackTrace();
                 }
             } else {
-                cards = new Gson().fromJson(FileUtils.readLineByLineJava8());
+                cards = new Gson().fromJson(FileUtils.readLineByLineJava8(getPathBean().getCard()), new TypeToken<ArrayList<CardBean>>(){}.getType());
+                for (CardBean card : cards) {
+                    picNameMap.put(card.getImageName(), card);
+                }
             }
 
             System.out.println(picNameMap);
@@ -199,6 +204,10 @@ public class CompareConfig {
         }
         // 計算ssr 的次數
         onceCountMap.put(SSRCount, onceCountMap.get(SSRCount) + 1);
+    }
+
+    public static SqlBean getSQLBean() {
+        return new Gson().fromJson(FileUtils.readLineByLineJava8(getPathBean().getSql()), SqlBean.class);
     }
 
     public static PathBean getPathBean() {

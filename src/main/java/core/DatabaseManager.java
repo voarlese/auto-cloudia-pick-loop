@@ -1,6 +1,7 @@
 package core;
 
 
+import bean.SqlBean;
 import com.zaxxer.hikari.HikariConfig;
 import com.zaxxer.hikari.HikariDataSource;
 
@@ -16,26 +17,24 @@ public class DatabaseManager {
         return instance;
     }
 
-    private static final String JDBC_URL = "jdbc:mysql://192.168.100.122:3307/cloudia";
-    private static final String USERNAME = "root";
-    private static final String PASSWORD = "1234";
     private static int max; // 連接池中最大Connection數目
     private HikariDataSource ds;
     public void init() {
         try {
             Class.forName("com.mysql.cj.jdbc.Driver");
         } catch (ClassNotFoundException e) {
-             e.printStackTrace();
+            e.printStackTrace();
             return;
         }
         connect();
     }
 
     public void connect() {
+        SqlBean sqlBean = CompareConfig.getSQLBean();
         HikariConfig config = new HikariConfig();
-        config.setJdbcUrl(JDBC_URL);
-        config.setUsername(USERNAME);
-        config.setPassword(PASSWORD);
+        config.setJdbcUrl(sqlBean.getUrl());
+        config.setUsername(sqlBean.getUserName());
+        config.setPassword(sqlBean.getPassword());
         config.setMaximumPoolSize(3);
         config.addDataSourceProperty("cachePrepStmts", "true");
         config.addDataSourceProperty("prepStmtCacheSize", "250");

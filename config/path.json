@@ -2,5 +2,7 @@
 	"screenShotDir" : "/Users/chiaowenke/IdeaProjects/autotest/compare/",
 	"desire" : "/Users/chiaowenke/IdeaProjects/autotest/config/desire.json",
 	"img" : "/Users/chiaowenke/IdeaProjects/autotest/img",
-	"device" : "/Users/chiaowenke/IdeaProjects/autotest/config/device.json"
+	"device" : "/Users/chiaowenke/IdeaProjects/autotest/config/device.json",
+	"cards" : "/Users/chiaowenke/IdeaProjects/autotest/config/cards.json",
+	"sql" : "/Users/chiaowenke/IdeaProjects/autotest/config/sql.json"
 }

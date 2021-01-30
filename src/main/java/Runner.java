@@ -3,6 +3,7 @@ import bean.CardBean;
 import core.CloudiaFirstPick;
 import core.CompareConfig;
 import core.DatabaseManager;
+import core.StringUtils;
 import org.opencv.core.Point;
 
 import java.io.File;
@@ -20,8 +21,10 @@ public class Runner {
         Thread t = new Thread(c);
         t.setName("Ctrl C Thread");
         t.start();
-
-        DatabaseManager.getInstance().init();
+        // 檢查 有沒有填資料庫參數
+        if (StringUtils.isNotBlank(CompareConfig.getSQLBean().getUrl())) {
+            DatabaseManager.getInstance().init();
+        }
         CompareConfig.init();
         CloudiaFirstPick cloudFirstPick = new CloudiaFirstPick();
         cloudFirstPick.startInput();

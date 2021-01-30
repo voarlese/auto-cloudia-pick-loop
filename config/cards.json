@@ -1,0 +1,992 @@
+[
+  {
+    "card_no": "1",
+    "name": "貿易港格拉納達",
+    "level_name": "R",
+    "type_no": "1",
+    "type_name": "聖物",
+    "coordinate_x": 737.5,
+    "coordinate_y": 1327.5,
+    "img_name": "1611145475909-43-5.jpg"
+  },
+  {
+    "card_no": "2",
+    "name": "海市蜃樓砂塔",
+    "level_name": "R",
+    "type_no": "1",
+    "type_name": "聖物",
+    "coordinate_x": 2802.5,
+    "coordinate_y": 147.5,
+    "img_name": "1611145459159-10-0.jpg"
+  },
+  {
+    "card_no": "3",
+    "name": "巨人格洛斯",
+    "level_name": "",
+    "type_no": "2",
+    "type_name": "角色",
+    "coordinate_x": 1327.5,
+    "coordinate_y": 2802.5,
+    "img_name": "1611150450346-95-1070.jpg"
+  },
+  {
+    "card_no": "3",
+    "name": "巨人格洛斯",
+    "level_name": "",
+    "type_no": "2",
+    "type_name": "角色",
+    "coordinate_x": 2212.5,
+    "coordinate_y": 147.5,
+    "img_name": "1611145458633-4-0.jpg"
+  },
+  {
+    "card_no": "4",
+    "name": "超沙獸的靈帝牙",
+    "level_name": "SSR",
+    "type_no": "1",
+    "type_name": "聖物",
+    "coordinate_x": 1032.5,
+    "coordinate_y": 442.5,
+    "img_name": "1611145461059-16-1.jpg"
+  },
+  {
+    "card_no": "5",
+    "name": "三賢者岱茵",
+    "level_name": "",
+    "type_no": "2",
+    "type_name": "角色",
+    "coordinate_x": 2507.5,
+    "coordinate_y": 737.5,
+    "img_name": "1611145465477-29-3.jpg"
+  },
+  {
+    "card_no": "5",
+    "name": "三賢者岱茵",
+    "level_name": "",
+    "type_no": "2",
+    "type_name": "角色",
+    "coordinate_x": 442.5,
+    "coordinate_y": 2507.5,
+    "img_name": "1611146409413-82-223.jpg"
+  },
+  {
+    "card_no": "6",
+    "name": "雷寶石的光輝",
+    "level_name": "R",
+    "type_no": "1",
+    "type_name": "聖物",
+    "coordinate_x": 2507.5,
+    "coordinate_y": 147.5,
+    "img_name": "1611145458668-5-0.jpg"
+  },
+  {
+    "card_no": "7",
+    "name": "戈爾德的奇跡",
+    "level_name": "SR",
+    "type_no": "1",
+    "type_name": "聖物",
+    "coordinate_x": 2507.5,
+    "coordinate_y": 2212.5,
+    "img_name": "1611146017364-79-129.jpg"
+  },
+  {
+    "card_no": "7",
+    "name": "戈爾德的奇跡",
+    "level_name": "SR",
+    "type_no": "1",
+    "type_name": "聖物",
+    "coordinate_x": 1327.5,
+    "coordinate_y": 1032.5,
+    "img_name": "1611145470176-35-4.jpg"
+  },
+  {
+    "card_no": "8",
+    "name": "魔鏡婆母拉姆",
+    "level_name": "SR",
+    "type_no": "1",
+    "type_name": "聖物",
+    "coordinate_x": 2507.5,
+    "coordinate_y": 442.5,
+    "img_name": "1611145460557-15-1.jpg"
+  },
+  {
+    "card_no": "9",
+    "name": "貝爾奧格",
+    "level_name": "SSR",
+    "type_no": "1",
+    "type_name": "聖物",
+    "coordinate_x": 2212.5,
+    "coordinate_y": 1917.5,
+    "img_name": "1611145575422-68-29.jpg"
+  },
+  {
+    "card_no": "10",
+    "name": "戈爾穆王子",
+    "level_name": "",
+    "type_no": "2",
+    "type_name": "角色",
+    "coordinate_x": 1917.5,
+    "coordinate_y": 2507.5,
+    "img_name": "1611146943808-87-367.jpg"
+  },
+  {
+    "card_no": "10",
+    "name": "戈爾穆王子",
+    "level_name": "",
+    "type_no": "2",
+    "type_name": "角色",
+    "coordinate_x": 442.5,
+    "coordinate_y": 1917.5,
+    "img_name": "1611145526114-61-18.jpg"
+  },
+  {
+    "card_no": "11",
+    "name": "布拉德羅茲",
+    "level_name": "",
+    "type_no": "2",
+    "type_name": "角色",
+    "coordinate_x": 1327.5,
+    "coordinate_y": 1622.5,
+    "img_name": "1611145491355-52-9.jpg"
+  },
+  {
+    "card_no": "11",
+    "name": "布拉德羅茲",
+    "level_name": "",
+    "type_no": "2",
+    "type_name": "角色",
+    "coordinate_x": 1917.5,
+    "coordinate_y": 2212.5,
+    "img_name": "1611145841567-77-89.jpg"
+  },
+  {
+    "card_no": "12",
+    "name": "洞暗的酒杯",
+    "level_name": "SR",
+    "type_no": "1",
+    "type_name": "聖物",
+    "coordinate_x": 1327.5,
+    "coordinate_y": 1917.5,
+    "img_name": "1611145559615-66-26.jpg"
+  },
+  {
+    "card_no": "12",
+    "name": "洞暗的酒杯",
+    "level_name": "SR",
+    "type_no": "1",
+    "type_name": "聖物",
+    "coordinate_x": 2802.5,
+    "coordinate_y": 2212.5,
+    "img_name": "1611146086848-80-145.jpg"
+  },
+  {
+    "card_no": "13",
+    "name": "少女的祈禱",
+    "level_name": "SR",
+    "type_no": "1",
+    "type_name": "聖物",
+    "coordinate_x": 1917.5,
+    "coordinate_y": 1327.5,
+    "img_name": "1611145482670-47-7.jpg"
+  },
+  {
+    "card_no": "13",
+    "name": "少女的祈禱",
+    "level_name": "SR",
+    "type_no": "1",
+    "type_name": "聖物",
+    "coordinate_x": 1032.5,
+    "coordinate_y": 2802.5,
+    "img_name": "1611148763208-94-732.jpg"
+  },
+  {
+    "card_no": "14",
+    "name": "魔獸獵人",
+    "level_name": "SR",
+    "type_no": "1",
+    "type_name": "聖物",
+    "coordinate_x": 2507.5,
+    "coordinate_y": 1917.5,
+    "img_name": "1611145585868-69-31.jpg"
+  },
+  {
+    "card_no": "15",
+    "name": "拉多姆賢封跡",
+    "level_name": "R",
+    "type_no": "1",
+    "type_name": "聖物",
+    "coordinate_x": 147.5,
+    "coordinate_y": 1327.5,
+    "img_name": "1611145474355-41-5.jpg"
+  },
+  {
+    "card_no": "16",
+    "name": "寶劍艾琉德",
+    "level_name": "SR",
+    "type_no": "1",
+    "type_name": "聖物",
+    "coordinate_x": 737.5,
+    "coordinate_y": 1032.5,
+    "img_name": "1611145469073-33-4.jpg"
+  },
+  {
+    "card_no": "17",
+    "name": "飛艇隆瓦裡歐號",
+    "level_name": "SSR",
+    "type_no": "1",
+    "type_name": "聖物",
+    "coordinate_x": 1622.5,
+    "coordinate_y": 737.5,
+    "img_name": "1611145464468-26-3.jpg"
+  },
+  {
+    "card_no": "18",
+    "name": "聖火修米萊亞",
+    "level_name": "R",
+    "type_no": "1",
+    "type_name": "聖物",
+    "coordinate_x": 737.5,
+    "coordinate_y": 737.5,
+    "img_name": "1611145463442-23-2.jpg"
+  },
+  {
+    "card_no": "18",
+    "name": "聖火修米萊亞",
+    "level_name": "R",
+    "type_no": "1",
+    "type_name": "聖物",
+    "coordinate_x": 1327.5,
+    "coordinate_y": 2507.5,
+    "img_name": "1611146674648-85-294.jpg"
+  },
+  {
+    "card_no": "19",
+    "name": "冰之刹姬賽維婭",
+    "level_name": "",
+    "type_no": "2",
+    "type_name": "角色",
+    "coordinate_x": 2802.5,
+    "coordinate_y": 2507.5,
+    "img_name": "1611147080125-90-397.jpg"
+  },
+  {
+    "card_no": "19",
+    "name": "冰之刹姬賽維婭",
+    "level_name": "",
+    "type_no": "2",
+    "type_name": "角色",
+    "coordinate_x": 1917.5,
+    "coordinate_y": 737.5,
+    "img_name": "1611145464815-27-3.jpg"
+  },
+  {
+    "card_no": "20",
+    "name": "焰鳥雷米之卵",
+    "level_name": "R",
+    "type_no": "1",
+    "type_name": "聖物",
+    "coordinate_x": 737.5,
+    "coordinate_y": 147.5,
+    "img_name": "1611145458817-7-0.jpg"
+  },
+  {
+    "card_no": "21",
+    "name": "阿爾丹的戰士",
+    "level_name": "R",
+    "type_no": "1",
+    "type_name": "聖物",
+    "coordinate_x": 2212.5,
+    "coordinate_y": 737.5,
+    "img_name": "1611145465106-28-3.jpg"
+  },
+  {
+    "card_no": "22",
+    "name": "絕斷門貝甘達",
+    "level_name": "R",
+    "type_no": "1",
+    "type_name": "聖物",
+    "coordinate_x": 2507.5,
+    "coordinate_y": 1327.5,
+    "img_name": "1611145485133-49-7.jpg"
+  },
+  {
+    "card_no": "22",
+    "name": "絕斷門貝甘達",
+    "level_name": "R",
+    "type_no": "1",
+    "type_name": "聖物",
+    "coordinate_x": 442.5,
+    "coordinate_y": 442.5,
+    "img_name": "1611145459859-12-1.jpg"
+  },
+  {
+    "card_no": "23",
+    "name": "傳說角色中的盜賊羅賓",
+    "level_name": "",
+    "type_no": "2",
+    "type_name": "角色",
+    "coordinate_x": 737.5,
+    "coordinate_y": 2507.5,
+    "img_name": "1611146452044-83-231.jpg"
+  },
+  {
+    "card_no": "23",
+    "name": "傳說角色中的盜賊羅賓",
+    "level_name": "",
+    "type_no": "2",
+    "type_name": "角色",
+    "coordinate_x": 2802.5,
+    "coordinate_y": 1917.5,
+    "img_name": "1611145612148-70-37.jpg"
+  },
+  {
+    "card_no": "24",
+    "name": "聖旗諾爾雷安",
+    "level_name": "SR",
+    "type_no": "1",
+    "type_name": "聖物",
+    "coordinate_x": 147.5,
+    "coordinate_y": 147.5,
+    "img_name": "1611145458560-1-0.jpg"
+  },
+  {
+    "card_no": "25",
+    "name": "蒼光騎士團",
+    "level_name": "R",
+    "type_no": "1",
+    "type_name": "聖物",
+    "coordinate_x": 2802.5,
+    "coordinate_y": 1622.5,
+    "img_name": "1611145497935-55-10.jpg"
+  },
+  {
+    "card_no": "26",
+    "name": "海盜船雷古尼斯號",
+    "level_name": "SSR",
+    "type_no": "1",
+    "type_name": "聖物",
+    "coordinate_x": 737.5,
+    "coordinate_y": 1917.5,
+    "img_name": "1611145532148-62-19.jpg"
+  },
+  {
+    "card_no": "26",
+    "name": "海盜船雷古尼斯號",
+    "level_name": "SSR",
+    "type_no": "1",
+    "type_name": "聖物",
+    "coordinate_x": 737.5,
+    "coordinate_y": 2802.5,
+    "img_name": "1611148443620-93-668.jpg"
+  },
+  {
+    "card_no": "27",
+    "name": "紅月",
+    "level_name": "SR",
+    "type_no": "1",
+    "type_name": "聖物",
+    "coordinate_x": 147.5,
+    "coordinate_y": 1917.5,
+    "img_name": "1611145499364-56-11.jpg"
+  },
+  {
+    "card_no": "28",
+    "name": "白色研究所",
+    "level_name": "SR",
+    "type_no": "1",
+    "type_name": "聖物",
+    "coordinate_x": 147.5,
+    "coordinate_y": 442.5,
+    "img_name": "1611145459763-11-1.jpg"
+  },
+  {
+    "card_no": "29",
+    "name": "蓋斯特修劍山",
+    "level_name": "R",
+    "type_no": "1",
+    "type_name": "聖物",
+    "coordinate_x": 2212.5,
+    "coordinate_y": 1622.5,
+    "img_name": "1611145516246-60-15.jpg"
+  },
+  {
+    "card_no": "29",
+    "name": "蓋斯特修劍山",
+    "level_name": "R",
+    "type_no": "1",
+    "type_name": "聖物",
+    "coordinate_x": 1032.5,
+    "coordinate_y": 1622.5,
+    "img_name": "1611145492706-53-9.jpg"
+  },
+  {
+    "card_no": "30",
+    "name": "露淇艾爾",
+    "level_name": "",
+    "type_no": "2",
+    "type_name": "角色",
+    "coordinate_x": 2507.5,
+    "coordinate_y": 2802.5,
+    "img_name": "1611546329476-99-2841.jpg"
+  },
+  {
+    "card_no": "30",
+    "name": "露淇艾爾",
+    "level_name": "",
+    "type_no": "2",
+    "type_name": "角色",
+    "coordinate_x": 1032.5,
+    "coordinate_y": 1032.5,
+    "img_name": "1611145469665-34-4.jpg"
+  },
+  {
+    "card_no": "31",
+    "name": "天弓星爵",
+    "level_name": "SSR",
+    "type_no": "1",
+    "type_name": "聖物",
+    "coordinate_x": 1032.5,
+    "coordinate_y": 737.5,
+    "img_name": "1611145463727-24-2.jpg"
+  },
+  {
+    "card_no": "32",
+    "name": "魔獸們的秘湯",
+    "level_name": "R",
+    "type_no": "1",
+    "type_name": "聖物",
+    "coordinate_x": 1917.5,
+    "coordinate_y": 147.5,
+    "img_name": "1611145459061-9-0.jpg"
+  },
+  {
+    "card_no": "33",
+    "name": "鏡鎧米傑爾",
+    "level_name": "SR",
+    "type_no": "1",
+    "type_name": "聖物",
+    "coordinate_x": 1622.5,
+    "coordinate_y": 2212.5,
+    "img_name": "1611145784998-76-77.jpg"
+  },
+  {
+    "card_no": "33",
+    "name": "鏡鎧米傑爾",
+    "level_name": "SR",
+    "type_no": "1",
+    "type_name": "聖物",
+    "coordinate_x": 1032.5,
+    "coordinate_y": 1917.5,
+    "img_name": "1611145544765-65-22.jpg"
+  },
+  {
+    "card_no": "34",
+    "name": "水晶城堡",
+    "level_name": "R",
+    "type_no": "1",
+    "type_name": "聖物",
+    "coordinate_x": 147.5,
+    "coordinate_y": 1622.5,
+    "img_name": "1611145487221-51-8.jpg"
+  },
+  {
+    "card_no": "35",
+    "name": "鋼鐵之瑪黛茵",
+    "level_name": "",
+    "type_no": "2",
+    "type_name": "角色",
+    "coordinate_x": 147.5,
+    "coordinate_y": 737.5,
+    "img_name": "1611145462539-21-2.jpg"
+  },
+  {
+    "card_no": "35",
+    "name": "鋼鐵之瑪黛茵",
+    "level_name": "",
+    "type_no": "2",
+    "type_name": "角色",
+    "coordinate_x": 2212.5,
+    "coordinate_y": 2507.5,
+    "img_name": "1611146951482-88-369.jpg"
+  },
+  {
+    "card_no": "36",
+    "name": "禁書沉眠的祭壇",
+    "level_name": "SR",
+    "type_no": "1",
+    "type_name": "聖物",
+    "coordinate_x": 147.5,
+    "coordinate_y": 1032.5,
+    "img_name": "1611145466884-31-3.jpg"
+  },
+  {
+    "card_no": "37",
+    "name": "施術士莉娜",
+    "level_name": "",
+    "type_no": "2",
+    "type_name": "角色",
+    "coordinate_x": 737.5,
+    "coordinate_y": 2212.5,
+    "img_name": "1611145640559-73-43.jpg"
+  },
+  {
+    "card_no": "37",
+    "name": "施術士莉娜",
+    "level_name": "",
+    "type_no": "2",
+    "type_name": "角色",
+    "coordinate_x": 147.5,
+    "coordinate_y": 2212.5,
+    "img_name": "1611145620323-71-39.jpg"
+  },
+  {
+    "card_no": "38",
+    "name": "魔像之核",
+    "level_name": "SSR",
+    "type_no": "1",
+    "type_name": "聖物",
+    "coordinate_x": 442.5,
+    "coordinate_y": 147.5,
+    "img_name": "1611145458738-6-0.jpg"
+  },
+  {
+    "card_no": "39",
+    "name": "秘寶瑪律邱羅登",
+    "level_name": "SR",
+    "type_no": "1",
+    "type_name": "聖物",
+    "coordinate_x": 1622.5,
+    "coordinate_y": 442.5,
+    "img_name": "1611145461761-18-2.jpg"
+  },
+  {
+    "card_no": "40",
+    "name": "巨雷雲傑拉尼亞",
+    "level_name": "R",
+    "type_no": "1",
+    "type_name": "聖物",
+    "coordinate_x": 2212.5,
+    "coordinate_y": 1032.5,
+    "img_name": "1611145472479-38-5.jpg"
+  },
+  {
+    "card_no": "41",
+    "name": "神獸獵人",
+    "level_name": "SSR",
+    "type_no": "1",
+    "type_name": "聖物",
+    "coordinate_x": 1917.5,
+    "coordinate_y": 1917.5,
+    "img_name": "1611145571078-67-28.jpg"
+  },
+  {
+    "card_no": "42",
+    "name": "巨樹",
+    "level_name": "R",
+    "type_no": "1",
+    "type_name": "聖物",
+    "coordinate_x": 2507.5,
+    "coordinate_y": 1622.5,
+    "img_name": "1611145534087-63-19.jpg"
+  },
+  {
+    "card_no": "42",
+    "name": "巨樹",
+    "level_name": "R",
+    "type_no": "1",
+    "type_name": "聖物",
+    "coordinate_x": 1622.5,
+    "coordinate_y": 147.5,
+    "img_name": "1611145458602-3-0.jpg"
+  },
+  {
+    "card_no": "43",
+    "name": "海岸的破劍",
+    "level_name": "R",
+    "type_no": "1",
+    "type_name": "聖物",
+    "coordinate_x": 442.5,
+    "coordinate_y": 1032.5,
+    "img_name": "1611145467656-32-3.jpg"
+  },
+  {
+    "card_no": "44",
+    "name": "樹精的秘村",
+    "level_name": "SR",
+    "type_no": "1",
+    "type_name": "聖物",
+    "coordinate_x": 1622.5,
+    "coordinate_y": 1327.5,
+    "img_name": "1611145481054-46-6.jpg"
+  },
+  {
+    "card_no": "45",
+    "name": "月下斬明",
+    "level_name": "R",
+    "type_no": "1",
+    "type_name": "聖物",
+    "coordinate_x": 1032.5,
+    "coordinate_y": 147.5,
+    "img_name": "1611145458564-2-0.jpg"
+  },
+  {
+    "card_no": "45",
+    "name": "月下斬明",
+    "level_name": "R",
+    "type_no": "1",
+    "type_name": "聖物",
+    "coordinate_x": 442.5,
+    "coordinate_y": 1622.5,
+    "img_name": "1611145509178-57-13.jpg"
+  },
+  {
+    "card_no": "46",
+    "name": "魔女之家",
+    "level_name": "R",
+    "type_no": "1",
+    "type_name": "聖物",
+    "coordinate_x": 1327.5,
+    "coordinate_y": 442.5,
+    "img_name": "1611145461364-17-1.jpg"
+  },
+  {
+    "card_no": "46",
+    "name": "魔女之家",
+    "level_name": "R",
+    "type_no": "1",
+    "type_name": "聖物",
+    "coordinate_x": 1032.5,
+    "coordinate_y": 2212.5,
+    "img_name": "1611145685783-74-54.jpg"
+  },
+  {
+    "card_no": "47",
+    "name": "神狩者信",
+    "level_name": "",
+    "type_no": "2",
+    "type_name": "角色",
+    "coordinate_x": 737.5,
+    "coordinate_y": 1622.5,
+    "img_name": "1611145511420-58-14.jpg"
+  },
+  {
+    "card_no": "47",
+    "name": "神狩者信",
+    "level_name": "",
+    "type_no": "2",
+    "type_name": "角色",
+    "coordinate_x": 2507.5,
+    "coordinate_y": 2507.5,
+    "img_name": "1611147049999-89-390.jpg"
+  },
+  {
+    "card_no": "48",
+    "name": "海龍神殿古拉納達利亞",
+    "level_name": "SR",
+    "type_no": "1",
+    "type_name": "聖物",
+    "coordinate_x": 1327.5,
+    "coordinate_y": 147.5,
+    "img_name": "1611145458900-8-0.jpg"
+  },
+  {
+    "card_no": "49",
+    "name": "天空城的雷神",
+    "level_name": "SR",
+    "type_no": "1",
+    "type_name": "聖物",
+    "coordinate_x": 1327.5,
+    "coordinate_y": 1327.5,
+    "img_name": "1611145478659-45-6.jpg"
+  },
+  {
+    "card_no": "49",
+    "name": "天空城的雷神",
+    "level_name": "SR",
+    "type_no": "1",
+    "type_name": "聖物",
+    "coordinate_x": 1032.5,
+    "coordinate_y": 2507.5,
+    "img_name": "1611146541803-84-254.jpg"
+  },
+  {
+    "card_no": "50",
+    "name": "公主莉拉",
+    "level_name": "",
+    "type_no": "2",
+    "type_name": "角色",
+    "coordinate_x": 442.5,
+    "coordinate_y": 2802.5,
+    "img_name": "1611147606880-92-505.jpg"
+  },
+  {
+    "card_no": "50",
+    "name": "公主莉拉",
+    "level_name": "",
+    "type_no": "2",
+    "type_name": "角色",
+    "coordinate_x": 1622.5,
+    "coordinate_y": 1622.5,
+    "img_name": "1611145515548-59-15.jpg"
+  },
+  {
+    "card_no": "51",
+    "name": "黑色冥使梅爾薩",
+    "level_name": "",
+    "type_no": "2",
+    "type_name": "角色",
+    "coordinate_x": 2212.5,
+    "coordinate_y": 2802.5,
+    "img_name": "1611155067202-98-2044.jpg"
+  },
+  {
+    "card_no": "51",
+    "name": "黑色冥使梅爾薩",
+    "level_name": "",
+    "type_no": "2",
+    "type_name": "角色",
+    "coordinate_x": 2212.5,
+    "coordinate_y": 1327.5,
+    "img_name": "1611145483166-48-7.jpg"
+  },
+  {
+    "card_no": "52",
+    "name": "法尼亞之花",
+    "level_name": "R",
+    "type_no": "1",
+    "type_name": "聖物",
+    "coordinate_x": 2507.5,
+    "coordinate_y": 1032.5,
+    "img_name": "1611145472941-39-5.jpg"
+  },
+  {
+    "card_no": "53",
+    "name": "聖劍墓梅儂",
+    "level_name": "SR",
+    "type_no": "1",
+    "type_name": "聖物",
+    "coordinate_x": 2802.5,
+    "coordinate_y": 737.5,
+    "img_name": "1611145466059-30-3.jpg"
+  },
+  {
+    "card_no": "54",
+    "name": "緋炎的英傑",
+    "level_name": "SR",
+    "type_no": "1",
+    "type_name": "聖物",
+    "coordinate_x": 1622.5,
+    "coordinate_y": 1032.5,
+    "img_name": "1611145470672-36-4.jpg"
+  },
+  {
+    "card_no": "55",
+    "name": "龍寶雷尼庫爾",
+    "level_name": "SSR",
+    "type_no": "1",
+    "type_name": "聖物",
+    "coordinate_x": 1327.5,
+    "coordinate_y": 2212.5,
+    "img_name": "1611145706765-75-59.jpg"
+  },
+  {
+    "card_no": "56",
+    "name": "永久時鐘迪洛",
+    "level_name": "SR",
+    "type_no": "1",
+    "type_name": "聖物",
+    "coordinate_x": 147.5,
+    "coordinate_y": 2507.5,
+    "img_name": "1611146117240-81-153.jpg"
+  },
+  {
+    "card_no": "56",
+    "name": "永久時鐘迪洛",
+    "level_name": "SR",
+    "type_no": "1",
+    "type_name": "聖物",
+    "coordinate_x": 2802.5,
+    "coordinate_y": 442.5,
+    "img_name": "1611145462212-20-2.jpg"
+  },
+  {
+    "card_no": "57",
+    "name": "法師樂園",
+    "level_name": "R",
+    "type_no": "1",
+    "type_name": "聖物",
+    "coordinate_x": 1327.5,
+    "coordinate_y": 737.5,
+    "img_name": "1611145464037-25-2.jpg"
+  },
+  {
+    "card_no": "57",
+    "name": "法師樂園",
+    "level_name": "R",
+    "type_no": "1",
+    "type_name": "聖物",
+    "coordinate_x": 442.5,
+    "coordinate_y": 2212.5,
+    "img_name": "1611145634746-72-42.jpg"
+  },
+  {
+    "card_no": "58",
+    "name": "妖精之森",
+    "level_name": "R",
+    "type_no": "1",
+    "type_name": "聖物",
+    "coordinate_x": 442.5,
+    "coordinate_y": 737.5,
+    "img_name": "1611145462882-22-2.jpg"
+  },
+  {
+    "card_no": "58",
+    "name": "妖精之森",
+    "level_name": "R",
+    "type_no": "1",
+    "type_name": "聖物",
+    "coordinate_x": 2507.5,
+    "coordinate_y": 442.5,
+    "img_name": "1611145461981-19-2.jpg"
+  },
+  {
+    "card_no": "59",
+    "name": "古蘭巴根",
+    "level_name": "SR",
+    "type_no": "1",
+    "type_name": "聖物",
+    "coordinate_x": 1917.5,
+    "coordinate_y": 1622.5,
+    "img_name": "1611145494345-54-10.jpg"
+  },
+  {
+    "card_no": "60",
+    "name": "天聖女的凱旋",
+    "level_name": "SSR",
+    "type_no": "1",
+    "type_name": "聖物",
+    "coordinate_x": 1917.5,
+    "coordinate_y": 1032.5,
+    "img_name": "1611145471338-37-4.jpg"
+  },
+  {
+    "card_no": "61",
+    "name": "武神羅梅爾",
+    "level_name": "",
+    "type_no": "2",
+    "type_name": "角色",
+    "coordinate_x": 1917.5,
+    "coordinate_y": 442.5,
+    "img_name": "1611145460066-13-1.jpg"
+  },
+  {
+    "card_no": "61",
+    "name": "武神羅梅爾",
+    "level_name": "",
+    "type_no": "2",
+    "type_name": "角色",
+    "coordinate_x": 1917.5,
+    "coordinate_y": 2802.5,
+    "img_name": "1611152981170-97-1651.jpg"
+  },
+  {
+    "card_no": "62",
+    "name": "空雄古拉拜因",
+    "level_name": "",
+    "type_no": "2",
+    "type_name": "角色",
+    "coordinate_x": 2802.5,
+    "coordinate_y": 1032.5,
+    "img_name": "1611145473484-40-5.jpg"
+  },
+  {
+    "card_no": "62",
+    "name": "空雄古拉拜因",
+    "level_name": "",
+    "type_no": "2",
+    "type_name": "角色",
+    "coordinate_x": 1622.5,
+    "coordinate_y": 2802.5,
+    "img_name": "1611151599285-96-1308.jpg"
+  },
+  {
+    "card_no": "63",
+    "name": "破壞王魯戈",
+    "level_name": "",
+    "type_no": "2",
+    "type_name": "角色",
+    "coordinate_x": 147.5,
+    "coordinate_y": 2802.5,
+    "img_name": "1611147583539-91-501.jpg"
+  },
+  {
+    "card_no": "63",
+    "name": "破壞王魯戈",
+    "level_name": "",
+    "type_no": "2",
+    "type_name": "角色",
+    "coordinate_x": 1622.5,
+    "coordinate_y": 1917.5,
+    "img_name": "1611145536399-64-20.jpg"
+  },
+  {
+    "card_no": "64",
+    "name": "隱者的禁室",
+    "level_name": "SR",
+    "type_no": "1",
+    "type_name": "聖物",
+    "coordinate_x": 1622.5,
+    "coordinate_y": 2507.5,
+    "img_name": "1611146812467-86-332.jpg"
+  },
+  {
+    "card_no": "64",
+    "name": "隱者的禁室",
+    "level_name": "SR",
+    "type_no": "1",
+    "type_name": "聖物",
+    "coordinate_x": 442.5,
+    "coordinate_y": 1327.5,
+    "img_name": "1611145475262-42-5.jpg"
+  },
+  {
+    "card_no": "65",
+    "name": "奧爾達納競技場",
+    "level_name": "SR",
+    "type_no": "1",
+    "type_name": "聖物",
+    "coordinate_x": 1032.5,
+    "coordinate_y": 1327.5,
+    "img_name": "1611145476925-44-5.jpg"
+  },
+  {
+    "card_no": "66",
+    "name": "白銀雪虹",
+    "level_name": "R",
+    "type_no": "1",
+    "type_name": "聖物",
+    "coordinate_x": 2802.5,
+    "coordinate_y": 1327.5,
+    "img_name": "1611145485945-50-7.jpg"
+  },
+  {
+    "card_no": "66",
+    "name": "白銀雪虹",
+    "level_name": "R",
+    "type_no": "1",
+    "type_name": "聖物",
+    "coordinate_x": 2212.5,
+    "coordinate_y": 2212.5,
+    "img_name": "1611145983183-78-121.jpg"
+  },
+  {
+    "card_no": "67",
+    "name": "邪教神殿",
+    "level_name": "SR",
+    "type_no": "1",
+    "type_name": "聖物",
+    "coordinate_x": 737.5,
+    "coordinate_y": 442.5,
+    "img_name": "1611145460392-14-1.jpg"
+  }
+]

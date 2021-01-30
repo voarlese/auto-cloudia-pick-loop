@@ -1,0 +1,21 @@
+Manifest-Version: 1.0
+Main-Class: Runner
+Class-Path: logback-core-1.2.3.jar logback-classic-1.2.3.jar HikariCP-3.4.5.jar slf4j-api-1.7.25.jar mysql-connector-java-8.0.22.jar reactive-streams-1.0.3.jar rxjava-3.0.9.jar testng-7.3.0.jar commons-collections-3.2.2.jar selenium-edge
+ -driver-3.141.59.jar spring-expression-5.3.1.jar commons-logging-1.2.ja
+ r selenium-opera-driver-3.141.59.jar commons-lang3-3.11.jar spring-core
+ -5.3.1.jar guice-4.2.2-no_aop.jar hamcrest-core-1.3.jar okhttp-3.11.0.j
+ ar selenium-remote-driver-3.141.59.jar junit-4.12.jar error_prone_annot
+ ations-2.1.3.jar httpclient-4.5.13.jar aopalliance-1.0.jar animal-sniff
+ er-annotations-1.14.jar commons-exec-1.3.jar spring-context-5.3.1.jar j
+ avax.inject-1.jar commons-codec-1.11.jar j2objc-annotations-1.1.jar com
+ mons-digester-2.1.jar commons-validator-1.7.jar ant-1.10.3.jar java-cli
+ ent-7.4.1.jar httpcore-4.4.13.jar aspectjweaver-1.9.6.jar spring-aop-5.
+ 3.1.jar snakeyaml-1.21.jar selenium-safari-driver-3.141.59.jar jcommand
+ er-1.78.jar cglib-3.3.0.jar selenium-chrome-driver-3.141.59.jar ant-lau
+ ncher-1.10.3.jar slf4j-api-1.7.30.jar checker-compat-qual-2.0.0.jar asm
+ -7.1.jar gson-2.8.6.jar guava-25.0-jre.jar spring-jcl-5.3.1.jar seleniu
+ m-api-3.141.59.jar okio-1.14.0.jar commons-io-2.8.0.jar spring-beans-5.
+ 3.1.jar selenium-firefox-driver-3.141.59.jar selenium-support-3.141.59.
+ jar selenium-ie-driver-3.141.59.jar commons-beanutils-1.9.4.jar jsr305-
+ 1.3.9.jar selenium-java-3.141.59.jar byte-buddy-1.8.15.jar
+

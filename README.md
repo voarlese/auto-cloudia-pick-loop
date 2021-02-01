@@ -1,9 +1,13 @@
 
 # 最後的克勞迪亞 cloudia Opencv JAVA + ADB 自動抽卡
 
+## 曬一下我的三聖物
+![](./gif/IMG_2DCD8C6BA256-1.jpeg)
+
 ## 簡介
 最近失業沒事做, 剛好 cloudia 有無限首抽, 閒閒來寫一下自動抽卡, 順便統計機率
 這是我測試用的, 所以要用的人至少要懂環境配置.
+抽卡+比對一輪大概 22秒左右
 
 **先工商一下～我是Android APP工程師 歡迎找我外包 APP.**
 > email : voarlese@gmail.com
@@ -76,6 +80,7 @@ C:/Document/autotest/compare/
 
 ---
 ##### 想要抽卡的組合 desire.json
+* name 必須使用 cards.json 內的卡片名稱(我不知道有沒有打錯字), 記得不要有空格
 * desire_card : 想要抽的聖物
  + name : 是要抽的聖物名稱
  + type : 
@@ -145,6 +150,7 @@ java -jar -Djava.library.path=../../../opencv-4.5.1/build/lib autotest.jar
 
 
 然後在這裡輸入 auto 就可以開始自動抽卡了
+
 ![](./gif/16119148083281611914808328.gif) 
 
 ### 停止

@@ -168,7 +168,7 @@ public class CloudiaFirstPick {
                         Thread.sleep(3000);
                         doProgress(adb, "shot");
                         Thread.sleep(2000);
-                        emitter.onNext(startTime + "-" + whileTimes + ".png");
+                        emitter.onNext(whileTimes + ".png");
                     }
                 });
             }

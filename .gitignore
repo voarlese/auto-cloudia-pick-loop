@@ -5,3 +5,4 @@
 .idea/
 target/
 .DS_Store
+/compare/

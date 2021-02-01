@@ -38,8 +38,13 @@ public class DesireBean {
                 }
             }
         }
-        if (limitCard > 0 && cardPickCount < limitCard) {
-            return false;
+        if (limitCard > 0) {
+            if (desireCard.size() == 0) {
+                // 沒放卡 繼續
+            }
+            if (cardPickCount < limitCard) {
+                return false;
+            }
         }
         int rolePickCount = 0;
         for (Item item : desireRole) {
@@ -54,7 +59,13 @@ public class DesireBean {
                 }
             }
         }
-        return limitRole <= 0 || rolePickCount >= limitRole;
+        if (limitRole > 0) {
+            if (desireRole.size() == 0) {
+                return true;
+            }
+            return rolePickCount >= limitRole;
+        }
+        return true;
     }
 
     private void setPick(CardBean card, ArrayList<Item> list) {

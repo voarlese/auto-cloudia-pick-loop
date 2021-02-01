@@ -1,6 +1,6 @@
 {
-	"desire_card" : [{"name" : "蒼光騎士團", "type" : 0}, {"name" : "白銀雪虹", "type" : 1}, {"name" : "聖火修米萊亞", "type" : 0}],
-	"desire_role" : [{"name" : "傳說角色中的盜賊羅賓", "type" : 0},{"name" : "露淇艾爾", "type" : 0}],	
-	"limit_card" : 2,
+	"desire_card" : [{"name" : "白銀雪虹", "type" : 1}],
+	"desire_role" : [],	
+	"limit_card" : 1,
 	"limit_role" : 1
 }

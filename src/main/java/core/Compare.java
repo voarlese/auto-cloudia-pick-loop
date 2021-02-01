@@ -130,7 +130,7 @@ public class Compare {
                 // outputResultImg(compareBean.getScreenShot(), compareBean.getTemplate(), mmr.maxLoc, "/Users/chiaowenke/IdeaProjects/autotest/compare/completed/" + compareBean.getFileName());
                 CardBean card = CompareConfig.getCardBean(compareBean.getFileName());
                 ResultBean resultBean = new ResultBean(mmr.maxVal, card, compareBean.getCompareIndex());
-//                System.out.println("compareIndex : " + compareBean.getCompareIndex() + " ratio : " + resultBean.getMaxVal() + " " + resultBean.getCard().getImageName());
+                System.out.println("compareIndex : " + compareBean.getCompareIndex() + " ratio : " + resultBean.getMaxVal() + " " + resultBean.getCard().getImageName());
                 emitter.onNext(resultBean);
             }
         });

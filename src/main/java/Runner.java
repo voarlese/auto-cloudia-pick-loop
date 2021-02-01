@@ -1,11 +1,9 @@
 
 import bean.CardBean;
-import core.CloudiaFirstPick;
-import core.CompareConfig;
-import core.DatabaseManager;
-import core.StringUtils;
-import org.opencv.core.Point;
+import core.*;
+import sun.security.krb5.Config;
 
+import java.awt.*;
 import java.io.File;
 import java.io.IOException;
 import java.sql.Connection;

@@ -1,5 +1,6 @@
 package core;
 
+import java.awt.*;
 import java.lang.reflect.Array;
 import java.util.ArrayList;
 
@@ -54,6 +55,16 @@ public class Adb {
             output +=".0";
         }
         return output;
+    }
+
+    public Point getScreenSize() {
+        String output = command("adb shell wm size");
+        System.out.println(output);
+        String[] wm = output.replace("Physical size: ", "").split("x");
+        Point p = new Point();
+        p.x = Integer.parseInt(wm[0].trim());
+        p.y = Integer.parseInt(wm[1].trim());
+        return p;
     }
 
     public ArrayList<String> getInstalledPackage() {

@@ -9,6 +9,7 @@ import io.reactivex.rxjava3.disposables.Disposable;
 import io.reactivex.rxjava3.functions.Function;
 import org.opencv.core.*;
 
+import java.awt.Point;
 import java.io.File;
 import java.sql.SQLException;
 import java.text.SimpleDateFormat;
@@ -20,8 +21,13 @@ public class CloudiaFirstPick {
 
     boolean passing = false;
 
+    private double aspectRatioW;
+    private double aspectRatioH;
     public void startInput() {
         Adb adb = new Adb(getID());
+        Point point =  adb.getScreenSize();
+        aspectRatioW = point.x / 1080d;
+        aspectRatioH = point.y / 1920d;
         Scanner s = new Scanner(System.in);
         boolean progress = true;
         System.out.println("輸入指令");
@@ -40,11 +46,11 @@ public class CloudiaFirstPick {
 
     public void doProgress(Adb adb, String progress) {
         if (progress.startsWith("pass")) {
-            adb.tap("973 95");
+            adb.tap((973 * aspectRatioW) + " " + (95 * aspectRatioH));
             return;
         }
         if (progress.startsWith("pick")) {
-            adb.tap("250 1715");
+            adb.tap((250 * aspectRatioW) + " " + (1715 * aspectRatioH));
             try {
                 Thread.sleep(1000);
             } catch (InterruptedException e) {
@@ -61,7 +67,7 @@ public class CloudiaFirstPick {
         if (progress.startsWith("st")) {
             passing = true;
             while (passing) {
-                adb.tap("973 95");
+                adb.tap((973 * aspectRatioW) + " " + (95 * aspectRatioH));
                 try {
                     Thread.sleep(1000);
                 } catch (InterruptedException e) {

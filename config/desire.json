@@ -1,6 +1,6 @@
 {
-	"desire_card" : [{"name" : "白銀雪虹", "type" : 1}],
-	"desire_role" : [],	
-	"limit_card" : 1,
+	"desire_card" : [{"name" : "飛艇隆瓦裡歐號", "type" : 1},{"name" : "超沙獸的靈帝牙", "type" : 1},{"name" : "海盜船雷古尼斯號", "type" : 1}],
+	"desire_role" : [{"name" : "冰之刹姬賽維婭", "type" : 0},{"name" : "戈爾穆王子", "type" : 0},{"name" : "公主莉拉", "type" : 0}],
+	"limit_card" : 3,
 	"limit_role" : 1
 }

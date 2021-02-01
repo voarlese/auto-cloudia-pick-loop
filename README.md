@@ -86,22 +86,36 @@ C:/Document/autotest/compare/
  + type : 
   1 : 一定要抽到 
   0 : 依照 limit_card 數量來決定至少抽到幾張
-   > 以下範例來看, limit_card : 2 中 type : 1 的**白銀雪虹**一定要抽到, type : 0 的兩張聖物中至少要中一張.
-
- 
-
+   > 以下範例來看, limit_card : 3 中 type : 1 的卡一定要抽到.
+   
 * desire_role : 想要抽的角色
  + name : 是要抽的角色名稱
  + type : 
   1 : 一定要抽到
   0 : 依照 limit_card 數量來決定至少抽到幾張
-   > 以下範例看 limit_role : 1, 表示 type 0 的兩張卡角色中, 至少要抽到其中一個
+   > 以下範例看 limit_role : 1, 表示 type 0 的三張卡角色中, 至少要抽到其中一個
 
-```json
+* limit_card 的數量為 desire_card type = 1數量加總, 如果有type = 0 的選項, 要抽到幾個type = 0的再額外往上加.
+ > 此例範例 limit_card 必須為3
+
+* limit_role 的數量為 desire_role type = 1數量加總, 如果有type = 0 的選項, 要抽到幾個type = 0的再額外往上加.
+    > 此例範例 limit_role 必須 為 0~3.
+```JSON
+ {
+  "desire_card" : [{"name" : "飛艇隆瓦裡歐號", "type" : 1},{"name" : "超沙獸的靈帝牙", "type" : 1},{"name" : "海盜船雷古尼斯號", "type" : 1}],
+  "desire_role" : [{"name" : "冰之刹姬賽維婭", "type" : 0},{"name" : "戈爾穆王子", "type" : 0},{"name" : "公主莉拉", "type" : 0}],
+  "limit_card" : 3,
+  "limit_role" : 1
+ }
+```
+
+> 想要雙聖物 另外加一張卡 可以這樣設定
+> 此時 一定會抽到 超沙獸的靈帝牙、海盜船雷古尼斯號, 剩下的 魔獸獵人、天聖女的凱旋、飛艇隆瓦裡歐號 有中其中一張都算完成
+```
 {
- "desire_card" : [{"name" : "蒼光騎士團", "type" : 0}, {"name" : "白銀雪虹", "type" : 1}, {"name" : "聖火修米萊亞", "type" : 0}],
- "desire_role" : [{"name" : "傳說角色中的盜賊羅賓", "type" : 0},{"name" : "露淇艾爾", "type" : 0}], 
- "limit_card" : 2,
+ "desire_card" : [{"name" : "魔獸獵人", "type" : 0},{"name" : "天聖女的凱旋", "type" : 0},{"name" : "飛艇隆瓦裡歐號", "type" : 0},{"name" : "超沙獸的靈帝牙", "type" : 1},{"name" : "海盜船雷古尼斯號", "type" : 1}],
+ "desire_role" : [{"name" : "冰之刹姬賽維婭", "type" : 0},{"name" : "戈爾穆王子", "type" : 0},{"name" : "公主莉拉", "type" : 0}],
+ "limit_card" : 3,
  "limit_role" : 1
 }
 ```

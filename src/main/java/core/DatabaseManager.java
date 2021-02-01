@@ -74,7 +74,9 @@ public class DatabaseManager {
     }
 
     public void close() {
-        ds.close();
-        ds = null;
+        if (ds != null) {
+            ds.close();
+            ds = null;
+        }
     }
 }

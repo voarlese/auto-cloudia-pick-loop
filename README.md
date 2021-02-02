@@ -32,7 +32,7 @@
 2. [ADB](https://developer.android.com/studio/releases/platform-tools)
 ADB 是用於控制手機, 所以必須設定環境變數讓 cmd 可以使用 adb 指令
 3. [OPENCV](https://opencv.org/releases/) 
-放到在autotest
+下載後放到 autotest 資料夾內
 需要把opencv 的 c/c++ lib檔案build出來
 [詳情可以看這篇](https://github.com/voarlese/opencv-build/blob/main/README.md), build opencv 只需要做到第二步, 把 opencv 的 dylib 弄出來就好了, run java 時候要引入
 

@@ -139,7 +139,7 @@ List of devices attached
 ---
 ##### sql.json
 資料庫參數, 沒有掛資料庫的話 JDBC_URL 不要填東西, 想掛資料庫做統計 可以去看我的[資料庫建置](https://github.com/voarlese/cloudia/blob/main/README.md)
-> 連線路徑範例 : "jdbc:mysql://192.168.100.122:3307/cloudia"
+> 連線路徑範例 : "jdbc:mysql://xxx.xxx.xxx.xxx:3307/cloudia"
 ```JSON
 {
  "JDBC_URL" : "",

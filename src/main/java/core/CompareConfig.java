@@ -118,7 +118,6 @@ public class CompareConfig {
             SourceBean sourceBean = new SourceBean(sourcesFile[i], Imgcodecs.imread(sourcesFile[i].getAbsolutePath()));
             sourceList.add(sourceBean);
         }
-
     }
 
     /**

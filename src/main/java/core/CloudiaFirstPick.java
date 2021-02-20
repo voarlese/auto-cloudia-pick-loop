@@ -187,7 +187,10 @@ public class CloudiaFirstPick {
 
                     @Override
                     public void onNext(@NonNull HashMap<Integer, ResultBean> map) {
-                        System.out.println("抽到的卡 ：" + map.size());
+                        if (map.size() == 0) {
+                            System.out.println("抽到的卡 ：" + map.size());
+                            return;
+                        }
                         DesireBean desireBean = getDesireBean();
                         int RCount = 0;
                         int SRCount = 0;

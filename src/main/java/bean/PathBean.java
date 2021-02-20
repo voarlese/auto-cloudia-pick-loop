@@ -26,7 +26,6 @@ public class PathBean {
     }
 
     public String getDesire() {
-        System.out.println("desire : " + desire);
         return desire;
     }
 
